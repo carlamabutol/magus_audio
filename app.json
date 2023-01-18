@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "magus_audio",
+    "name": "Magus: Subliminal Audio",
     "slug": "magus_audio",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/magusicon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#040404"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -18,16 +18,26 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.magus.subliminal.audio",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Magus uses your camera to capture photo for your profile picture. Your photo will not be shared without your permission."
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/magusicon.png",
+        "backgroundColor": "#070707"
+      },
+      "package": "com.magus.subliminal.audio"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "76bf1830-09eb-406f-8d5c-fb13bca096c6"
+      }
     }
   }
 }
