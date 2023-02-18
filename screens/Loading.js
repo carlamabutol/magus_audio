@@ -38,8 +38,8 @@ export default function Loading({navigation}) {
         </View>
         <View style={{height: height, width: width, marginTop: -height}}>
           <Image source={require('../assets/splash.png')} style={{height: moderateScale(80), width: moderateScale(120), marginTop: moderateScale(20), alignSelf: 'center'}}/>
-          <Image source={require('../assets/Login/image1.png')} style={{height: moderateScale(300), width: moderateScale(160), marginTop: -moderateScale(70), alignSelf: 'flex-start', shadowColor: 'black', shadowOpacity: 0.3}}/>
-          <Image source={require('../assets/Login/image2.png')} style={{height: moderateScale(300), width: moderateScale(160), marginTop: -moderateScale(30), alignSelf: 'flex-end', shadowColor: 'black', shadowOpacity: 0.3}}/>
+          <Image source={require('../assets/Login/image2.png')} style={{height: moderateScale(300), width: moderateScale(160), marginTop: -moderateScale(70), alignSelf: 'flex-start', shadowColor: 'black', shadowOpacity: 0.3}}/>
+          <Image source={require('../assets/Login/image1.png')} style={{height: moderateScale(300), width: moderateScale(160), marginTop: -moderateScale(30), alignSelf: 'flex-end', shadowColor: 'black', shadowOpacity: 0.3}}/>
           <View style={{flexDirection: 'row', alignSelf: 'center', justifyContent: 'center', alignItems: 'center'}}>
             <Image source={require('../assets/Login/ear.png')} style={{height: moderateScale(20), width: moderateScale(20)}}/>
             <Text style={{marginLeft: moderateScale(5), fontSize: moderateScale(12), fontWeight: '500'}}>better with earphones</Text>

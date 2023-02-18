@@ -89,7 +89,7 @@ let login = async (email, password)=>{
   }, []);
     return( 
       <>
-        <ImageBackground  source={require('../../assets/Login/signin.png')} style={styles.container}>
+        <ImageBackground  source={require('../../assets/Login/signinn.png')} style={styles.container}>
           
           {error ? (
                   <Modal
@@ -151,7 +151,7 @@ let login = async (email, password)=>{
               </FormContainer> 
             </View>
             <View style={{width: '100%', height: moderateScale(280), justifyContent: 'center', alignItems: 'center', position: 'absolute', ...Platform.select({android: {bottom: moderateScale(280)}, ios: {bottom: moderateScale(280)+keyboardHeight,}}) }}>
-              <Image source={require('../../assets/Login/signinn.png')} style={{height: moderateScale(270), width: moderateScale(270), alignSelf: 'flex-start', marginLeft: -moderateScale(20), shadowColor: 'black', shadowOpacity: 0.3}}/>
+              <Image source={require('../../assets/Login/signin.png')} style={{height: moderateScale(270), width: moderateScale(270), alignSelf: 'flex-start', marginLeft: -moderateScale(20), shadowColor: 'black', shadowOpacity: 0.3}}/>
             </View>
           </SafeAreaView>
         </ImageBackground>

@@ -1766,8 +1766,8 @@ const Home =({navigation}) =>{
             <Tab.Screen name="Today" component={PlayStack2} 
               options={{headerShown: false ,tabBarIcon: ({focused})=>(
               <View style={{alignItems: 'center', justifyContent: 'center', top: moderateScale(10), width: width/4}}>
-                <Image source={require('../assets/Nav/nav02.png')} style={{width: moderateScale(30), height: moderateScale(30), tintColor: focused ? '#427AB3' : 'gray'}}/>
-                {focused ? <Image source={require('../assets/Nav/onedot.png')} style={{width: moderateScale(8), height: moderateScale(8), marginTop: moderateScale(5), marginBottom: moderateScale(2), tintColor: focused ? '#427AB3' : 'black'}}/>: null}
+                <Image source={require('../assets/Nav/nav02.png')} style={{width: moderateScale(35), height: moderateScale(35), tintColor: focused ? '#427AB3' : 'gray'}}/>
+                {focused ? <Image source={require('../assets/Nav/onedot.png')} style={{width: moderateScale(10), height: moderateScale(10), marginTop: moderateScale(5), marginBottom: moderateScale(2), tintColor: focused ? '#427AB3' : 'black'}}/>: null}
               </View> 
               )}}
             />
@@ -1775,7 +1775,7 @@ const Home =({navigation}) =>{
               options={{headerShown: false ,tabBarIcon: ({focused})=>(
               <View style={{alignItems: 'center', justifyContent: 'center', top: moderateScale(10), width: width/4}}>
                 <Image source={require('../assets/Nav/nav01.png')} style={{width: moderateScale(37), height: moderateScale(30), tintColor: focused ? '#427AB3' : 'gray'}}/>
-                {focused ? <Image source={require('../assets/Nav/onedot.png')} style={{width: moderateScale(8), height: moderateScale(8), marginTop: moderateScale(5), marginBottom: moderateScale(2), tintColor: focused ? '#427AB3' : 'black'}}/>: null}
+                {focused ? <Image source={require('../assets/Nav/onedot.png')} style={{width: moderateScale(10), height: moderateScale(10), marginTop: moderateScale(5), marginBottom: moderateScale(2), tintColor: focused ? '#427AB3' : 'black'}}/>: null}
               </View> 
               )}}
             />
@@ -1783,7 +1783,7 @@ const Home =({navigation}) =>{
               options={{headerShown: false ,tabBarIcon: ({focused})=>(
               <View style={{alignItems: 'center', justifyContent: 'center', top: moderateScale(10), width: width/4}}>
                 <Image source={require('../assets/Nav/nav03.png')} style={{width: moderateScale(30), height: moderateScale(30), tintColor: focused ? '#427AB3' : 'gray'}}/>
-                {focused ? <Image source={require('../assets/Nav/onedot.png')} style={{width: moderateScale(8), height: moderateScale(8), marginTop: moderateScale(5), marginBottom: moderateScale(2), tintColor: focused ? '#427AB3' : 'black'}}/>: null}
+                {focused ? <Image source={require('../assets/Nav/onedot.png')} style={{width: moderateScale(10), height: moderateScale(10), marginTop: moderateScale(5), marginBottom: moderateScale(2), tintColor: focused ? '#427AB3' : 'black'}}/>: null}
               </View> 
               )}}
             />

@@ -86,6 +86,13 @@ const Me = ({navigation}) =>{
         setValue("OUT")
       }
       setLogging(true)
+      AsyncStorage.removeItem('id')
+    global.id=null
+      navigation.reset({
+        index: 0, routes: [{name: "Splash"}]
+      })
+    }else{
+      finallyOut()
     }
   }
   const finallyOut=()=>{
