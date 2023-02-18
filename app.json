@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "magus_audio",
+    "name": "Magus",
     "slug": "magus_audio",
-    "version": "1.0.0",
+    "version": "1.2.2",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/magusicon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#040404"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -18,16 +18,30 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "requireFullScreen": true,
+      "supportsTablet": true,
+      "bundleIdentifier": "com.magus.subliminal.audio",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#070707"
+      },
+      "package": "com.magus.subliminal.audio",
+      "versionCode": 4
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "76bf1830-09eb-406f-8d5c-fb13bca096c6"
+      }
     }
   }
 }
